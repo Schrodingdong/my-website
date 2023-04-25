@@ -5,13 +5,19 @@ name: Node.js CI
 
 env:
   CI: false
+  
 
+  
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+    
+permissions:
+  contents: read
+  pull-requests: write
+  
 jobs:
   build:
 
