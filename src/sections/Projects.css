@@ -1,0 +1,3 @@
+.carousel-parent::-webkit-scrollbar{
+    display: none;
+}

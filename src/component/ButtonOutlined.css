@@ -1,0 +1,18 @@
+.button-outlined{
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-outlined:hover{
+    background-color: white;
+    transition: 200ms;
+}
+.button-outlined:hover > a{
+    color: #8750FF;
+    transition: 200ms;
+}
