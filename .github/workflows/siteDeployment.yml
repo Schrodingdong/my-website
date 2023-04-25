@@ -38,6 +38,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: check folders
+        run: ls -r
+      - name: check parent folders
+        run: ls .. -r
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
